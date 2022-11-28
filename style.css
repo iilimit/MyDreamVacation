@@ -1,0 +1,68 @@
+.banner, .activitesbanner, .accomodationsbanner, .restaurantsbanner,.additionalinfobanner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(greecehouses.jpeg);
+}
+
+.activitesbanner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(resturants.webp);
+}
+
+.accomodationsbanner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(greekhouse2.jpeg);
+}
+
+.restaurantsbanner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(food.jpeg);
+}
+
+.additionalinfobanner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(customer\ service.jpeg);
+}
+
+
+.navbar ul li{
+    display: inline-block;
+    text-align: center;
+    padding-left: 2%;
+    margin: 0 30px;
+    font-size: 22px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.mainpagecontent{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    /* color: white; */
+}
+
+
+.mainpagecontent h1{
+    font-size: 80px;
+}
+
+.mainpagecontent h1{
+    font-size: 80px;
+}
+
+.mainpagecontent p{
+    margin: 20px auto;
+    margin-right: 150px;
+    margin-left: 80px;
+}
